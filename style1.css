@@ -1,0 +1,53 @@
+:root {
+  background-color: hsl(30, 38%, 92%);
+}
+.fullpage {
+  /* background-color: white; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+  width: 42%;
+  height: 10%;
+  border-radius: 2rem;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+.image {
+  width: 60%;
+}
+.image > img {
+  width: 20vw;
+  height: 56.4vh;
+  border-radius: 2rem 0rem 0rem 2rem;
+}
+.description {
+  background-color: white;
+  padding: 2.93rem;
+  height: 45.5vh;
+  border-radius: 0rem 2rem 2rem 0rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9rem;
+  border-radius: 2rem;
+}
+button {
+  background-color: rgba(2, 40, 2, 0.951);
+  color: white;
+  height: 47px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  font-family: Montserrat;
+}
+h1 {
+  font-family: fraunces;
+}
+span {
+  font-size: small;
+}

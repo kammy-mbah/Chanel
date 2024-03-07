@@ -1,0 +1,51 @@
+:root {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+.fullpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0%;
+  padding: 1rem;
+  background-color: aqua;
+}
+
+/* h1 {
+  width: 200px;
+} */
+img {
+  width: 32%;
+  height: 55vh;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+main {
+  background-color: white;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0rem 1rem 1rem 0rem;
+  /* padding: 1rem; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.button {
+  background-color: green;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.prices {
+  display: inline-block;
+}
+.image {
+  display: flex;
+}
+.everything {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
