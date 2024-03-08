@@ -44,10 +44,25 @@ button {
   align-items: center;
   border-radius: 1rem;
   font-family: Montserrat;
+  gap: 1rem;
+  font-size: 12px;
 }
 h1 {
   font-family: fraunces;
+  color: rgba(2, 40, 2, 0.951);
 }
 span {
   font-size: small;
+}
+.prices {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+  height: 60px;
+  /* background-color: greenyellow; */
+  padding-bottom: 1rem;
+}
+.discount {
+  text-decoration: line-through;
 }
